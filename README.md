@@ -81,8 +81,19 @@
 
 > Question #16 - What are the relationships of the borrowers' credit score and loan amount within each income category? To visualize the data more easily, we will only look at the upper four income ranges.
     - >The relationship between monthly loan payment and original loan amount seems to stay consistent within each income range.
+    
+> Question #17 - What was the distribution of borrower credit scores in loan categories of current and defaulted? In loans which were defaulted, were borrower's scores lower on average?
+    - From the FacetGrid box plots, it is clear the distribution of borrower's credit scores is higher where loan statuses are current and lower where loan statuses are default.
 
 
 ## Key Insights for Presentation
 
-> The borrower's credit score greatly affected the loan in several ways. Through the analysis, the borrower's annual interest rate was shown to increase when their credit score decreased, and their 
+> The borrower's credit score greatly affected the loan in three major ways: 
+    1) Through the analysis, the borrower's annual interest rate was shown to increase when their credit score decreased. 
+        - The negative correlation of a borrower's credit score and their APR was -0.4 with a p-value of 0.
+    2) The lower the borrower's credit score, the greater estimated risk of the loan in case of charge-off. 
+        - The negative correlation of greater estimated loan risk and borrower credit score was approximately -0.5 with a p-value of 0.
+    3) The range of credit scores for current loans are significantly higher than the range of credit scores for the defaulted loans. 
+        - For the loans which are current, the borrower credit score distribution ranged from 600-880 (lower range) to 619-899 (upper range). The mean credit scores were 698 (lower range) and 717 (upper range). The median credit scores were 700 (lower range) and 719 (upper range). 
+        - For the loans which are defaulted, the borrower credit score distribution ranged from 0-860 (lower range) to 19-879 (upper range). The mean credit scores were 620 (lower range) and 639 (upper range). The median credit scores were 640 (lower range) and 659 (upper range).
+        
